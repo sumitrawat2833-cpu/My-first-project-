@@ -1,19 +1,21 @@
 Student Performance Analysis
-📌 Project Overview
+Project Overview:
 
 This project analyzes student performance data to identify key factors affecting academic outcomes. Using Python, Pandas, Matplotlib, and Seaborn, we explore trends based on gender, parental education, lunch type, and test preparation.
 
-🎯 Objectives
+Objectives:
 Analyze student scores in Math, Reading, and Writing
 Identify performance patterns across different categories
 Understand the impact of socio-economic and educational factors
 Generate actionable insights for improving student outcomes
-🛠️ Tools & Technologies
+
+Tools & Technologies:
 Python
 Pandas
 Matplotlib
 Seaborn
-📂 Dataset
+
+Dataset
 Dataset: StudentsPerformance.csv
 Contains 1000 student records with features:
 Gender
@@ -22,12 +24,14 @@ Parental Level of Education
 Lunch Type
 Test Preparation Course
 Math, Reading, Writing Scores
-🔍 Data Cleaning & Processing
+
+Data Cleaning & Processing:
 Renamed columns for consistency
 Checked for missing values (none found)
 Removed duplicates
 Created a new feature: Average Score
-📊 Exploratory Data Analysis
+
+Exploratory Data Analysis:
 1. Distribution of Average Scores
 Most students score between 60–80
 Few extreme low performers
@@ -42,18 +46,14 @@ Higher parental education correlates with better student performance
 Students with standard lunch perform better than those with free/reduced lunch
 6. Correlation Analysis
 Strong positive correlation between Math, Reading, and Writing scores
-📈 Visualizations
-Histogram of Average Scores
-Boxplot (Gender vs Performance)
-Bar Chart (Parental Education vs Scores)
-Boxplot (Test Preparation Impact)
-Heatmap (Correlation Matrix)
-🚀 Key Insights
+
+Key Insights:
 Test preparation has the highest positive impact on performance
 Socio-economic factors (lunch type) influence outcomes
 Female students excel in language-based subjects
 Academic subjects are strongly interconnected
-💡 Actionable Recommendations
+
+Actionable Recommendations:
 Encourage or make test preparation programs accessible
 Provide nutritional and academic support for underprivileged students
 Focus on improving reading and writing skills for male students
